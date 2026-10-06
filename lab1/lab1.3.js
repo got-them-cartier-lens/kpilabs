@@ -1,6 +1,6 @@
 'use strict';
 
-const number = {num:5}
+const number = {n:5}
 
 const inc = (obj) => {
   if (typeof obj === 'object') 
