@@ -11,9 +11,9 @@ const data = [
     1.1478
 
 ];
-const counters = {number:0, string:0, boolean:0};
+const counters = {};
 for (const element of data) {
   const type = typeof element;
-  counters[type]++;
+  counters[type] = (counters[type] || 0) + 1;
 }
 console.log(counters);
