@@ -2,9 +2,9 @@
 
 const rangeOdd = (start, end) => {
     const result = [];
-for (let i = start; i <= end; i++) {
-    if (i % 2 !== 0)
-    result.push(i)
+for (let num = start; num <= end; num++) {
+    if (num % 2 !== 0)
+    result.push(num)
 }
 return result;
 };
